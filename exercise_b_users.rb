@@ -56,36 +56,36 @@ users = {
 
 # 1. Get Jonathan's Twitter handle (i.e. the string `"jonnyt"`)
 
-# p users["Jonathan"][:twitter]
+p users["Jonathan"][:twitter]
 
 # 2. Get Erik's hometown
 
-# p users["Erik"][:home_town]
+p users["Erik"][:home_town]
 
 # 3. Get the array of Erik's lottery numbers
 
-# p users["Erik"][:lottery_numbers]
+p users["Erik"][:lottery_numbers]
 
 # 4. Get the type of Avril's pet Monty
 
-# p users["Avril"][:pets][0][:species]
+p users["Avril"][:pets][0][:species]
 
 # 5. Get the smallest of Erik's lottery numbers
 
-# p users["Erik"][:lottery_numbers].min
+p users["Erik"][:lottery_numbers].min
 
 # 6. Return an array of Avril's lottery numbers that are even
 
-# lottery = users["Avril"][:lottery_numbers].each{|x| puts x if x%2 == 0}
+lottery = users["Avril"][:lottery_numbers].each{|x| puts x if x%2 == 0}
 
 # 7. Erik is one lottery number short! Add the number `7` to be included in
 #his lottery numbers
 
-# p users["Erik"][:lottery_numbers]<<7
+p users["Erik"][:lottery_numbers]<<7
 
 # 8. Change Erik's hometown to Edinburgh
 
-# p users["Erik"][:home_town]="Edinburgh"
+p users["Erik"][:home_town]="Edinburgh"
 
 # 9. Add a pet dog to Erik called "Fluffy"
 
