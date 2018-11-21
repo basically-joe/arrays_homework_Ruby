@@ -30,8 +30,19 @@ united_kingdom = [
 
 # 3. Use a loop to print the names of all the countries in the UK
 
-  for name in united_kingdom
-      p name[:name]
-     end
+  # for name in united_kingdom
+  #     p name[:name]
+  #    end
 
 # 4. Use a loop to find the total population of the UK.
+def count_population(united_kingdom)
+  sum_of_population = 0
+
+for population in united_kingdom
+     sum_of_population += population[:population]
+    end
+    return sum_of_population
+  end
+
+total = count_population(united_kingdom)
+p total
