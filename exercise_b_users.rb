@@ -95,5 +95,5 @@ p pets
 
 # 10. Add another person to the users hash
 
-users = "Joe"
+users ["Joe"] = {twitter:"mccjo", lottery_numbers: [1, 2 ,3, 4, 5], home_town:"Dunfermline"}
 p users
