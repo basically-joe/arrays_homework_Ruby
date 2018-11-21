@@ -78,10 +78,22 @@ users = {
 
 # lottery = users["Avril"][:lottery_numbers].each{|x| puts x if x%2 == 0}
 
-# 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
+# 7. Erik is one lottery number short! Add the number `7` to be included in
+#his lottery numbers
 
-
+# p users["Erik"][:lottery_numbers]<<7
 
 # 8. Change Erik's hometown to Edinburgh
+
+# p users["Erik"][:home_town]="Edinburgh"
+
 # 9. Add a pet dog to Erik called "Fluffy"
+
+pets = users["Erik"][:pets]
+pets<< {name: "Fluffy", species: "Dog"}
+p pets
+
 # 10. Add another person to the users hash
+
+users = "Joe"
+p users
